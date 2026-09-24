@@ -95,3 +95,4 @@ Counts bookings for each category with COUNT and GROUP BY. Expected: Cleaning 3,
 - Query 4 uses `CURDATE()`, so its result depends on the day it is run. The result shown was taken on 24 September 2026.
 - Query 2 uses customer ID 4, which is the customer created by query 1, so run the queries in order.
 - Booking 5 has no invoice and no staff assignment, so it can be deleted. A booking that has either one cannot be deleted, because of the foreign keys.
+| `report/BSFM_Database_Report.docx` | The Word report with explanations and result screenshots |
